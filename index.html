@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The ANNA Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="home">
+    <h1 class="title">THE ANNA GROUP</h1>
+    <p class="tagline">"You are in when you are trusted"</p>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#members">Members</a>
+      <a href="#cards">Identity Cards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="fade-in">
+    <h2>About</h2>
+    <p>The ANNA Group was first coined by <strong>Arnav Tiwari</strong> and <strong>Shashwat Mishra</strong> on <strong>3rd August 2025</strong>. 
+      We celebrate our anniversary every year on <strong>3rd August</strong> with fun, energy, and brotherhood.<br><br>
+      Currently, the group has <strong>8 members</strong> out of a total of <strong>10</strong> — two positions still await future legends.</p>
+  </section>
+
+  <!-- MEMBERS SECTION -->
+  <section id="members">
+    <h2>Members</h2>
+
+    <div class="member">
+      <div class="info">
+        <h3>Leader: Shashwat Singh</h3>
+        <p>Fully energetic and playful, often involved in fun and light punishments.</p>
+      </div>
+      <div class="card-container">
+        <div class="id-card" oncontextmenu="flipCard(event, this)">
+          <div class="front">
+            <h3>ANNA</h3>
+            <p>Name: Shashwat Singh (1)</p>
+            <p>Class: 8th E1</p>
+            <p>Role: Leader</p>
+            <p>Assigned by: Shashwat Singh</p>
+          </div>
+          <div class="back">
+            <h3>Identity Card</h3>
+            <p class="sign">Shashwat Singh</p>
+            <p class="note">Own Signature for belonging the member of The Anna Group</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="info">
+        <h3>Co-Leader: Shashwat Mishra</h3>
+        <p>An English language expert, humble and helpful, known for his “powerful punch” against wrongdoers.</p>
+      </div>
+      <div class="card-container">
+        <div class="id-card" oncontextmenu="flipCard(event, this)">
+          <div class="front">
+            <h3>ANNA</h3>
+            <p>Name: Shashwat Mishra (6)</p>
+            <p>Class: 8th E1</p>
+            <p>Role: Co-Leader</p>
+            <p>Assigned by: Shashwat Singh</p>
+          </div>
+          <div class="back">
+            <h3>Identity Card</h3>
+            <p class="sign">Shashwat Mishra</p>
+            <p class="note">Own Signature for belonging the member of The Anna Group</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="info">
+        <h3>Vice-Leader: Arnav Tiwari</h3>
+        <p>Tech enthusiast, better at computers, owns a gaming channel, creative and confident.</p>
+      </div>
+      <div class="card-container">
+        <div class="id-card" oncontextmenu="flipCard(event, this)">
+          <div class="front">
+            <h3>ANNA</h3>
+            <p>Name: Arnav Tiwari (7)</p>
+            <p>Class: 8th E1</p>
+            <p>Role: Vice-Leader</p>
+            <p>Assigned by: Shashwat Singh</p>
+          </div>
+          <div class="back">
+            <h3>Identity Card</h3>
+            <p class="sign">Arnav Tiwari</p>
+            <p class="note">Own Signature for belonging the member of The Anna Group</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat similar blocks for remaining members -->
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <p>To know more about <strong>THE ANNA GROUP</strong>, message us on <strong>Arattai</strong> or <strong>WhatsApp</strong>:</p>
+    <p class="contact-num">📞 9219926355 (Arnav – Vice Leader)</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 The Anna Group | All Rights Reserved ®</p>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+  <!-- INLINE JS -->
+  <script>
+    // Card Flip
+    function flipCard(e, card) {
+      e.preventDefault();
+      card.classList.toggle("flipped");
+    }
+
+    // Back to top button
+    const topBtn = document.getElementById("topBtn");
+    window.onscroll = () => {
+      topBtn.style.display = (window.scrollY > 300) ? "block" : "none";
+    };
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+
+</body>
+</html>
