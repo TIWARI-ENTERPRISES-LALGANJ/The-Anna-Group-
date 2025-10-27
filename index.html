@@ -1,213 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Anna Group</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The ANNA Group</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="fade-down">
+  <header>
     <h1 class="main-title">THE ANNA GROUP</h1>
     <p class="tagline">"You are in when you are trusted"</p>
+
     <nav>
-      <a href="#about">About</a>
-      <a href="#members">Members</a>
-      <a href="#contact">Contact</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="mode-toggle">🌞 / 🌙</button></li>
+      </ul>
     </nav>
   </header>
 
-  <section id="about" class="fade-up">
-    <h2>About The Anna Group</h2>
-    <p>First coined by <strong>Arnav Tiwari</strong> and <strong>Shashwat Mishra</strong> on <strong>3rd August 2025</strong>.  
-    We celebrate our foundation anniversary every year on <strong>3rd August</strong> with pride, fun, and laughter.</p>
-    <p>The group can have a maximum of <strong>10 members</strong>, but at present there are <strong>8 members</strong> — united by friendship, energy, and trust.</p>
+  <section id="about" class="fade-section">
+    <h2>About The ANNA Group</h2>
+    <p>
+      First coined by <b>Arnav</b> and <b>Shashwat Mishra</b> on <b>3 August 2025</b>.  
+      We celebrate its anniversary every year on <b>3rd August</b>.
+    </p>
+    <p>
+      Maximum members: <b>10</b> — currently <b>8 active</b> and <b>2 remaining slots</b>.
+    </p>
   </section>
 
-  <section id="members">
+  <section id="members" class="fade-section">
     <h2>Our Members</h2>
+    <div class="members-container">
 
-    <!-- Each member block -->
-    <div class="member slide-up">
-      <div class="description">
-        <h3>Leader: Shashwat Singh (1)</h3>
-        <p>Fully energetic and playful, involved in fun and light punishments that make every moment memorable.</p>
-      </div>
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="front">
-          <h4>The Anna Identity Card</h4>
-          <p class="card-name">Shashwat Singh</p>
-          <p>Leader</p>
-          <p>Assigned by: Shashwat Singh</p>
+      <!-- 1. Shashwat Singh -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>ANNA</h3>
+            <h2>Shashwat Singh (1)</h2>
+            <p>Class 8 - E1</p>
+            <p>Leader of “The ANNA Group”</p>
+            <p>Assigned by Shashwat Singh</p>
+          </div>
+          <div class="card-back">
+            <h3>Identity Card</h3>
+            <p>Signed as <b>Shashwat Singh</b></p>
+            <p>Own Signature for belonging the member of “The ANNA Group”</p>
+          </div>
         </div>
-        <div class="back">
-          <p>Class: 8 • Section: A</p>
-          <p>Energetic, active, and fun-loving member of the Anna Group.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="member slide-up">
-      <div class="description">
-        <h3>Co-Leader: Shashwat Mishra (6)</h3>
-        <p>Expert in English, humble, always ready to help, and delivers a powerful punch to wrongdoers!</p>
-      </div>
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="front">
-          <h4>The Anna Identity Card</h4>
-          <p class="card-name">Shashwat Mishra</p>
-          <p>Co-Leader</p>
-          <p>Assigned by: Shashwat Singh</p>
+      <!-- 2. Arnav Tiwari -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>ANNA</h3>
+            <h2>Shashwat Mishra (6)</h2>
+            <p>Class 8 - E1</p>
+            <p>Vice-Leader of “The ANNA Group”</p>
+            <p>Assigned by Shashwat Singh</p>
+          </div>
+          <div class="card-back">
+            <h3>Identity Card</h3>
+            <p>Signed as <b>Siddharth</b></p>
+            <p>Own Signature for belonging the member of “The ANNA Group”</p>
+          </div>
         </div>
-        <div class="back">
-          <p>Class: 8 • Section: A</p>
-          <p>Humble, kind-hearted, and disciplined — a strong pillar of the group.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="member slide-up">
-      <div class="description">
-        <h3>Vice-Leader: Arnav Tiwari (7)</h3>
-        <p>Great at computers and gaming. Runs a YouTube channel and adds creativity to every project.</p>
-      </div>
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="front">
-          <h4>The Anna Identity Card</h4>
-          <p class="card-name">Arnav Tiwari</p>
-          <p>Vice-Leader</p>
-          <p>Assigned by: Shashwat Singh</p>
+      <!-- 3. Shashwat Mishra -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>ANNA</h3>
+            <h2>Arnav Tiwari (7)</h2>
+            <p>Class 8 - E1</p>
+            <p>Co-Founder</p>
+            <p>Assigned by Shashwat Singh</p>
+          </div>
+          <div class="card-back">
+            <h3>Identity Card</h3>
+            <p>Signed as <b>Nikhil </b></p>
+            <p>Own Signature for belonging the member of “The ANNA Group”</p>
+          </div>
         </div>
-        <div class="back">
-          <p>Class: 8 • Section: A</p>
-          <p>Tech-savvy, creative, and the official designer of the Anna Group.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="member slide-up">
-      <div class="description">
-        <h3>Member: Rishabh Shukla (2)</h3>
-        <p>Dhoni fan, decent at studies, talkative but punctual — adds fun to every discussion.</p>
-      </div>
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="front">
-          <h4>The Anna Identity Card</h4>
-          <p class="card-name">Rishabh Shukla</p>
-          <p>Member</p>
-          <p>Assigned by: Shashwat Singh</p>
+      <!-- 4. Aditya Kumar -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>ANNA</h3>
+            <h2>Rishabh Shukla (2)</h2>
+            <p>Class 8 - E1</p>
+            <p>Core Member</p>
+            <p>Assigned by Shashwat Singh</p>
+          </div>
+          <div class="card-back">
+            <h3>Identity Card</h3>
+            <p>Signed as <b>Rishabh Shukla</b></p>
+            <p>Own Signature for belonging the member of “The ANNA Group”</p>
+          </div>
         </div>
-        <div class="back">
-          <p>Class: 8 • Section: A</p>
-          <p>Talkative yet punctual — keeps the group cheerful and balanced.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="member slide-up">
-      <div class="description">
-        <h3>Member: Rudra Pratap Singh (5)</h3>
-        <p>Jack of all trades, good in studies but a bit lazy at times.</p>
-      </div>
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="front">
-          <h4>The Anna Identity Card</h4>
-          <p class="card-name">Rudra Pratap Singh</p>
-          <p>Member</p>
-          <p>Assigned by: Shashwat Singh</p>
+      <!-- 5. Aayush Raj -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>ANNA</h3>
+            <h2>Rudra Pratap Singh (5)</h2>
+            <p>Class 8 - E1</p>
+            <p>Member</p>
+            <p>Assigned by Shashwat Singh</p>
+          </div>
+          <div class="card-back">
+            <h3>Identity Card</h3>
+            <p>Signed as <b>Rudra Pratap Singh</b></p>
+            <p>Own Signature for belonging the member of “The ANNA Group”</p>
+          </div>
         </div>
-        <div class="back">
-          <p>Class: 8 • Section: A</p>
-          <p>Versatile and intelligent — the relaxed thinker of the group.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="member slide-up">
-      <div class="description">
-        <h3>Member: Rudra Singh (8)</h3>
-        <p>Tall, athletic, quiet, and sometimes disturbing — but strong in sports.</p>
-      </div>
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="front">
-          <h4>The Anna Identity Card</h4>
-          <p class="card-name">Rudra Singh</p>
-          <p>Member</p>
-          <p>Assigned by: Shashwat Singh</p>
+      <!-- 6. Abhinav Kumar -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>ANNA</h3>
+            <h2>Rudra Singh (8)</h2>
+            <p>Class 8 - E1</p>
+            <p>Member</p>
+            <p>Assigned by Shashwat Singh</p>
+          </div>
+          <div class="card-back">
+            <h3>Identity Card</h3>
+            <p>Signed as <b>Rudra Singh</b></p>
+            <p>Own Signature for belonging the member of “The ANNA Group”</p>
+          </div>
         </div>
-        <div class="back">
-          <p>Class: 8 • Section: A</p>
-          <p>Sports champion and a dependable team player.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="member slide-up">
-      <div class="description">
-        <h3>Member: Rishabh Singh (10)</h3>
-        <p>Silent boy who always finds his profit but rarely on time with tasks.</p>
-      </div>
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="front">
-          <h4>The Anna Identity Card</h4>
-          <p class="card-name">Rishabh Singh</p>
-          <p>Member</p>
-          <p>Assigned by: Shashwat Singh</p>
+      <!-- 7. Aryan Singh -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>ANNA</h3>
+            <h2>Rishabh Singh (10)</h2>
+            <p>Class 8 - E1</p>
+            <p>Member</p>
+            <p>Assigned by Shashwat Singh</p>
+          </div>
+          <div class="card-back">
+            <h3>Identity Card</h3>
+            <p>Signed as <b>Rishabh Singh</b></p>
+            <p>Own Signature for belonging the member of “The ANNA Group”</p>
+          </div>
         </div>
-        <div class="back">
-          <p>Class: 8 • Section: A</p>
-          <p>Quiet and calculating — the strategist of the group.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="member slide-up">
-      <div class="description">
-        <h3>Member: Atharva Tiwari (3)</h3>
-        <p>Talkative, friendly with girls, and great at studies — a fun addition to the team.</p>
-      </div>
-      <div class="card" onclick="this.classList.toggle('flipped')">
-        <div class="front">
-          <h4>The Anna Identity Card</h4>
-          <p class="card-name">Atharva Tiwari</p>
-          <p>Member</p>
-          <p>Assigned by: Shashwat Singh</p>
+      <!-- 8. Abhay Verma -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>ANNA</h3>
+            <h2>Atharv Tiwari(3)</h2>
+            <p>Class 8 - E1</p>
+            <p>Member</p>
+            <p>Assigned by Shashwat Singh</p>
+          </div>
+          <div class="card-back">
+            <h3>Identity Card</h3>
+            <p>Signed as <b>Atharv Tiwari </b></p>
+            <p>Own Signature for belonging the member of “The ANNA Group”</p>
+          </div>
         </div>
-        <div class="back">
-          <p>Class: 8 • Section: A</p>
-          <p>Talkative and bright — the charmer of the Anna Group.</p>
-        </div>
       </div>
+
     </div>
   </section>
 
-  <section id="contact" class="fade-up">
+  <section id="contact" class="fade-section">
     <h2>Contact Us</h2>
-    <p>To know more about <strong>THE ANNA GROUP</strong>, message us on Arattai or WhatsApp:</p>
-    <p><strong>📞 9219926355 (Arnav – Vice Leader)</strong></p>
+    <p>To know more about <b>The ANNA Group</b>, message on Arattai or WhatsApp:</p>
+    <p><b>📞 9219926355 (Arnav — Vice Leader)</b></p>
   </section>
 
   <footer>
-    <p>© 2025 The Anna Group | All Rights Reserved ®</p>
+    <p>© All Rights Reserved to THE ANNA GROUP ®</p>
   </footer>
 
-  <button onclick="window.scrollTo({top:0, behavior:'smooth'})" id="topBtn">↑</button>
-
   <script>
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add('visible');
-      });
-    }, { threshold: 0.2 });
+    // Dark & Light mode toggle
+    const toggle = document.getElementById('mode-toggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
 
-    document.querySelectorAll('.fade-up, .slide-up').forEach(el => observer.observe(el));
+    // Card flip
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('contextmenu', e => {
+        e.preventDefault();
+        card.querySelector('.card-inner').classList.toggle('flipped');
+      });
+    });
   </script>
 </body>
 </html>
